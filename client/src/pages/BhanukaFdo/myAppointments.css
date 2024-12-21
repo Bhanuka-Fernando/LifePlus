@@ -1,0 +1,135 @@
+.appointments-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 1335px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.appointment-title h1{
+  font-family: "Kanit", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #333333; /* Darker color for better contrast */
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.appointment-title hr{
+  width: 1370px;
+}
+
+.appointment-title h2{
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 15px;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+}
+
+.appointment-title h3{
+  width: 250px;
+  margin-left: 0px;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: left;
+  font-family: "Kanit", sans-serif;
+  background-color:#c0d7e5;
+  border-radius: 10px;
+}
+
+.appointments-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.appointments-table th,
+.appointments-table td {
+  border: 1px solid #bbb8b8;
+  padding: 12px;
+  text-align: center;
+}
+
+.appointments-table th {
+  background-color: #d3e5c0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.appointments-table td {
+  background-color: #f1f1f1;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn {
+  background-color: #046f11;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.loading-text,
+.error-text {
+  text-align: center;
+  color: #f00;
+}
+
+
+.title-row {
+  display: inline;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: space-between; /* Distributes space between the title and the buttons */
+}
+
+.download-buttons {
+  margin-left: 425px;
+  display: inline;
+  gap: 10px; /* Adds space between the buttons */
+
+}
+
+.download-buttons .btn {
+  margin-left: 10px; /* Optional: adds a bit of space between the title and the first button */
+  background-color: #a2b9c7;
+}

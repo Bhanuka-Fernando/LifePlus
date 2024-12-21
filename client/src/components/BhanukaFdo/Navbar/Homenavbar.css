@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px; /* Padding for the navbar */
+  background-color: #014856; /* Deep teal background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.logo {
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  color: #ffffff; /* White text for the logo */
+  font-weight: 700; /* Bold for prominence */
+}
+
+.menu {
+  display: flex;
+  gap: 30px; /* Space between links */
+}
+
+.menu a {
+  color: #ffffff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; /* Font size */
+  transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+.menu a:hover {
+  color: #94d2bd; /* Light teal on hover */
+
+}
+
+.user-actions {
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+  gap: 15px; /* Space between user action elements */
+}
+
+.heart-icon,
+.user-icon {
+  font-size: 24px; /* Icon size */
+  color: #ffffff; /* White color for icons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+.heart-icon:hover,
+.user-icon:hover {
+  color: #94d2bd; /* Light teal on hover */
+}
+
+.user-name {
+  color: #ffffff; /* White text for user name */
+  font-size: 16px; /* Font size */
+  font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+.logout-button {
+  background-color: #e63946; /* Bright red background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.logout-button:hover {
+  background-color: #d62839; /* Darker red on hover */
+}

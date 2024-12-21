@@ -1,0 +1,18 @@
+
+
+.homeHeadStyle{
+    text-align: center;
+    background-color: beige;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.homeHeadStyle img{
+    width: 40px;
+    height: 25px;
+    padding-right: 40px;
+
+}

@@ -1,0 +1,102 @@
+.hospitals-container {
+  margin: 30px auto;
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+.hospitals-title h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: #268653;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.hospitals-title h2{
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.hospitals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hospital-card {
+  margin-top: 20px;
+  width: 270px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: left;
+}
+
+.hospital-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hospital-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ffffff;
+}
+
+.hospital-info {
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hospital-info h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.hospital-info p {
+  font-size: 13px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.hosListselect-button {
+  width: 150px;
+  display: block;      /* Make the button a block-level element */
+  margin: 20px auto;
+  background-color: #2e7605; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+  font-family: 'Roboto', sans-serif; /* Font family */
+  text-transform: uppercase; /* Capitalize text */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: none; /* Remove underline */
+  margin-top: 30px; /* Spacing above the button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.select-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}

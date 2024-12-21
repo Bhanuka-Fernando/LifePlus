@@ -1,0 +1,82 @@
+/* Sidebar.css */
+
+.sidebar-container {
+    position: relative;
+    
+    display: flex;
+    align-items: stretch;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+/* Hide the toggle button on larger screens */
+@media (min-width: 768px) {
+    .toggle-btn {
+        display: none; /* Hides the toggle button on screens wider than 768px */
+    }
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #343a40; /* Dark background */
+    color: #ffffff;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* Hide sidebar off-screen */
+    position: fixed; /* Keep it fixed on the left */
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    z-index: 999; /* Ensure it’s on top */
+}
+
+.sidebar.open {
+    transform: translateX(0); /* Show sidebar */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #495057; /* Lighten background on hover */
+    color: #f8f9fa; /* Lighter text color */
+}
+
+.sidebar a i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Logout button styles can be customized here if needed */

@@ -1,0 +1,131 @@
+/* Container for the entire lab services section */
+.lab-services-container {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Header section for lab services */
+.lab-services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
+
+.lab-services-header h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.lab-services-header h2 {
+    font-size: 18px;
+    color: #555555;
+    background-color: #a1ccb7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lab-contact-info span {
+    color: #00796b;
+    font-weight: 600;
+}
+
+/* Search bar styling */
+.lab-search-container {
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.lab-search-input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lab-search-input:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+/* Lab services list */
+.lab-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: flex-start;
+}
+
+/* Each lab service card */
+.lab-service-card {
+    width: 270px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+}
+
+.lab-service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Image of the lab service */
+.lab-service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #fff;
+}
+
+/* Lab service details */
+.lab-service-info {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lab-service-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 5px 0;
+}
+
+.lab-service-info p {
+    font-size: 13px;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Book appointment button */
+.lab-appointment-button {
+    display: inline-block;
+    background-color: #2e7605;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lab-appointment-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

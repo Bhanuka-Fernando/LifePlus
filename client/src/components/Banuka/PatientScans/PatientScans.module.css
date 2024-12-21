@@ -1,0 +1,132 @@
+.profileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profileHeader img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profileHeader h2 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profileHeader p {
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+
+.patientContainer {
+    /* margin-left: 300px; */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 1200px; Limit the maximum width */
+}
+
+.patientInfo p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #007BFF;
+}
+
+.scanList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.scanItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.scanItem p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #333;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping for responsive behavior */
+}
+
+.upper div {
+    margin-right: 15px;
+    flex: 1;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (screen width less than 1024px) */
+@media (max-width: 1024px) {
+    .patientContainer {
+        margin-left: 0;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .upper {
+        flex-direction: column; /* Stack the sections vertically */
+    }
+
+    .upper div {
+        margin-right: 0;
+        margin-bottom: 15px; /* Add space between sections */
+    }
+}
+
+/* For mobile devices (screen width less than 768px) */
+@media (max-width: 768px) {
+    .patientContainer {
+        padding: 10px;
+    }
+
+    h2, h3 {
+        font-size: 20px;
+    }
+
+    .patientInfo p {
+        font-size: 14px;
+    }
+
+    .scanItem {
+        padding: 8px;
+    }
+
+    .upper {
+        flex-direction: column;
+    }
+
+    .upper div {
+        margin-bottom: 10px;
+    }
+}

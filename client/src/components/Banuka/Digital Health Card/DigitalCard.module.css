@@ -1,0 +1,71 @@
+/* DigitalCard.module.css */
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.digitalCard {
+    height: 300px;
+    width: 500px;
+    background-color: #eaf0e9;
+    border-radius: 20px;
+    padding: 0px;
+    position: relative; /* For positioning children */
+}
+
+.cardHeader {
+    background-color: #0095ff;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardContent {
+    display: flex;
+}
+
+.profileImage {
+    object-fit: cover;
+    border: 2px solid #000000;
+    height: 100px;
+    width: 100px;
+}
+
+.cardDetails {
+    margin-left: 100px;
+}
+
+.cardDivider {
+    background-color: #0095ff;
+    height: 2px;
+    width: 100%;
+}
+
+.cardFooter {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.barcodeImage {
+    width: 100%;
+}
+
+.downloadButton {
+   
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0095ff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    /* Full-width button */
+}

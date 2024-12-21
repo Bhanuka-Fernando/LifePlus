@@ -1,0 +1,143 @@
+.doctors-container {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.doctors-title{
+    display: flex;
+    gap: 310px;
+}
+
+.doctors-title h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #333333; /* Darker color for better contrast */
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.doctors-title h2 {
+    font-size: 20px; /* Increased size for visibility */
+    font-weight: 400; /* Slightly lighter for contrast */
+    color: #555555; /* Lighter gray for contrast */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+.contact-info {
+    margin-top: 35px;
+    background-color: #a1cca7; /* Light blue background for the contact number */
+    padding: 25px 20px; /* Padding for the number background */
+    border-radius: 5px; /* Rounded corners for the background */
+    display: inline-block; /* Makes the background only cover the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    height: 20px;
+    color: black;
+}
+
+.contact-info span {
+    color: #00796b; /* Dark teal for the contact number */
+    font-weight: 600; /* Bold for emphasis */
+}
+
+
+.doctors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.doctor-card {
+    margin-top: 20px;
+    width: 270px; /* Width for better presentation */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.doctors-image {
+    width: 100%;
+    height: 200px; /* Height for clarity */
+    object-fit: cover;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px;
+}
+
+.doctors-info {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.doctors-info h3 {
+    font-size: 20px; /* Larger font size for doctor name */
+    color: #000000;
+    font-weight: 600;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.doctors-info p {
+    font-size: 13px;
+    color: #777;
+    margin: 5px 0;
+}
+
+
+/* appointment button */
+.appointment-button {
+    display: inline-block;
+    background-color: #2e7605; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    text-transform: uppercase; /* Capitalize text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline */
+    margin-top: 20px; /* Spacing above the button */
+    margin-left: 18px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.appointment-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+
+/* search input */
+.search-container {
+    margin: 20px 0; /* Space around the search bar */
+    margin-left: 40px;
+}
+
+.search-input {
+    width: 50%; /* Full width for better usability */
+    padding: 10px; /* Padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for readability */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-input:focus {
+    border-color: #00796b; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+

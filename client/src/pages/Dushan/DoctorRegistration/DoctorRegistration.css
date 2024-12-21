@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4faf5;
+  margin: 0;
+  padding: 0px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Form Layout */
+.docregistration-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.docregistration-field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.docregistration-input,
+.docregistration-select,
+.docregistration-file-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.docregistration-input:focus,
+.docregistration-select:focus,
+.docregistration-file-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.docregistration-next-button,
+.docregistration-back-button,
+.docregistration-submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.docregistration-next-button:hover,
+.docregistration-back-button:hover,
+.docregistration-submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Checkbox Styles */
+.docregistration-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between checkboxes */
+}
+
+.docregistration-checkbox {
+  display: flex;
+  align-items: center; /* Center align label with checkbox */
+}
+
+.docregistration-checkbox input {
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+/* Upload Progress */
+.docregistration-field > div {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .docregistration-input,
+  .docregistration-select,
+  .docregistration-file-input {
+    font-size: 16px; /* Slightly larger text on small screens */
+  }
+
+  /* Buttons */
+.docregistration-next-button,
+.docregistration-back-button,
+.docregistration-submit-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0; /* Add vertical spacing between buttons */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.docregistration-next-button:hover,
+.docregistration-back-button:hover,
+.docregistration-submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+}

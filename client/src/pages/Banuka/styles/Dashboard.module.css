@@ -1,0 +1,95 @@
+/* Dashboard.module.css */
+
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items */
+    padding: 20px;
+    background-color: transparent; /* Light background color */
+    height: 100vh; /* Full viewport height */
+}
+
+.dashboardTitle {
+    font-size: 2rem; /* Large title */
+    margin-bottom: 20px; /* Space below title */
+    color: #333; /* Dark color for text */
+}
+
+.dashboardImage {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 80vw; /* Responsive image */
+    height: 50vh; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below image */
+}
+
+.dashboardButtons {
+    height: 10vh;
+    display: flex; /* Flexbox for button layout */
+    justify-content: space-around; /* Space buttons evenly */
+    width: 80%; /* Full width for button container */
+}
+
+.dashboardButton {
+    flex: 1; /* Each button takes equal space */
+    margin: 0 10px; /* Margin between buttons */
+}
+
+.dashboardButton button {
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding inside button */
+    background-color: #c7c5c5; /* Background */
+    color: black; /* Text color */
+    border: 2px solid rgb(34, 58, 44); /* Border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.dashboardButton button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .dashboardTitle {
+        font-size: 1.5rem; /* Smaller title font size */
+        text-align: center; /* Center align text for mobile */
+    }
+
+    .dashboardImage {
+        width: 95vw; /* Make image slightly larger on mobile */
+        height: 30vh; /* Reduce height for mobile */
+    }
+
+    .dashboardButtons {
+        flex-direction: column; /* Stack buttons vertically */
+        height: auto; /* Adjust height for buttons */
+    }
+
+    .dashboardButton {
+        margin: 10px 0; /* Margin between stacked buttons */
+    }
+
+    .dashboardButton button {
+        font-size: 18px; /* Smaller button font size */
+        padding: 15px; /* Increase padding for touch targets */
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboardTitle {
+        font-size: 1.2rem; /* Even smaller title for extra small screens */
+    }
+
+    .dashboardImage {
+        height: 20vh; /* Further reduce image height */
+    }
+
+    .dashboardButton button {
+        font-size: 16px; /* Smaller font for buttons */
+    }
+}

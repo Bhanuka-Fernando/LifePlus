@@ -1,0 +1,82 @@
+.homepage {
+    padding: 40px;
+    background-color: #43d1b0; /* Light background color for contrast */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+  }
+  
+  .hospital-details {
+    margin-bottom: 40px;
+    border: 2px solid #43d1b0; /* Teal border */
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #fff; /* White background for the hospital details */
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow for more prominence */
+  }
+  
+  .hospital-logo {
+    width: 250px; /* Increased logo size */
+    height: auto;
+    border-radius: 50%; /* Circular logo */
+    margin-bottom: 25px;
+    border: 4px solid #43d1b0; /* Thicker teal border around the logo */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow to make the logo stand out */
+  }
+  
+  .hospital-name {
+    font-size: 2.8em; /* Slightly larger font size for the name */
+    color: #43d1b0; /* Teal color for the name */
+    margin: 0;
+  }
+  
+  .hospital-description {
+    font-size: 1.4em; /* Slightly larger font size for description */
+    color: #555; /* Dark gray for the description */
+  }
+  
+  .specialists {
+    display: flex;
+    justify-content: center; /* Center the cards */
+    flex-wrap: wrap; /* Wraps cards to next line on smaller screens */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .specialist-card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #43d1b0; /* Teal border */
+    border-radius: 8px;
+    padding: 30px;
+    width: 220px; /* Fixed width for cards */
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .specialist-card:hover {
+    transform: translateY(-8px); /* Lift effect on hover */
+  }
+  
+  .specialist-icon {
+    font-size: 2.5em; /* Larger size for icons */
+    color: #43d1b0; /* Teal color for icons */
+    margin-bottom: 15px;
+  }
+  
+  .specialist-title {
+    font-size: 1.6em;
+    color: #007bff; /* Blue color for titles */
+    margin: 10px 0;
+  }
+  
+  .specialist-count {
+    font-size: 1.2em;
+    color: #333; /* Darker gray for count text */
+  }
+  
+ 
+  .specialist-count span {
+    font-weight: bold; /* Bold count number */
+    color: #007bff; /* Blue color for count */
+  }
+  

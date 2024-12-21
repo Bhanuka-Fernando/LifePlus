@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600;700&display=swap');
+
+.uamodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.uamodal-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.uamodal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 350px;
+}
+
+.uamodal-title h2{
+  font-size: 30px;
+  margin-left: -65px;
+  font-weight: 700;
+  font-family: "Kanit", sans-serif;
+}
+
+.uamodal-close {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.uaform-group {
+  margin-bottom: 20px;
+}
+
+.uaform-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.uaform-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.uaform-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px #007bff4d;
+}
+
+.uaform-actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.uabtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 48%;
+  margin-right: 10px;
+}
+
+.uaupdate-btn {
+  background-color: #106d04;
+  color: #ffffff;
+}
+
+.uaupdate-btn:hover {
+  background-color: #0056b3;
+}
+
+.uacancel-btn {
+  background-color: #860000;
+  color: #ffffff;
+  border: 2px solid #f1dcdc;
+}
+
+.uacancel-btn:hover {
+  background-color: #d32f2f;
+  color: #ffffff;
+}

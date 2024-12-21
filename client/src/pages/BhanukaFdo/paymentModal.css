@@ -1,0 +1,137 @@
+.payment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.payment-modal-content {
+  border: 5px solid black;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 420px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Shadow for modern look */
+  transition: all 0.3s ease-in-out;
+}
+
+.paymentModelContent{
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.payment-modal h2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 28px; /* Slightly smaller for better fit */
+  margin-bottom: 20px;
+  color: #333; /* Darker text color for better readability */
+}
+
+.payment-modal .Pform-group {
+  margin-bottom: 20px;
+}
+
+.payment-modal .Pform-row {
+  display: flex;
+  justify-content: space-between; /* Space between columns */
+  gap: 5px; /* Gap between input fields */
+}
+
+.payment-modal .Pform-col {
+  flex: 1; /* Equal width for both columns */
+}
+
+/* Set specific widths for the Expiry Date and CVV fields */
+.Pform-col:nth-child(1) {
+  margin-right: 55px; /* Space on right for Expiry Date */
+}
+
+.Pform-col:nth-child(2) {
+  margin-right: 50px; /* Space on left for CVV */
+}
+
+.Pform-col .input-field {
+  width: 100%; /* Ensure input fields fill the column */
+}
+
+
+.paymentModelContent {
+  text-align: left;
+}
+
+.payment-modal .Pform-group label {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.payment-modal .input-field {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Slightly more rounded corners */
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.payment-modal .input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus effect */
+  outline: none;
+}
+
+.payment-modal-actions {
+  margin-top: 40px;
+  margin-left: -50px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.paymentbtn  {
+  margin-bottom: 10px;
+  padding: 9px 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 48%; /* Adjust width to fit both buttons */
+}
+
+.confirm-payment-btn  {
+  background-color: #006907;
+  color: #ffffff;
+}
+
+.confirm-payment-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-payment-btn {
+  background-color: #530000;
+  color: #ffffff;
+  border: 2px solid #d32f2f;
+}
+
+.cancel-payment-btn:hover {
+  background-color: #d32f2f;
+  color: #ffffff;
+}
+
+.payerror-message {
+  color: red; /* Red color for error messages */
+  font-size: 0.9em; /* Slightly smaller font size */
+  margin-top: 0.25em; /* Space above error message */
+}

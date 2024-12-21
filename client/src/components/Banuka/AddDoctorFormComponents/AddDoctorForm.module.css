@@ -1,0 +1,60 @@
+/* AddDoctorForm.module.css */
+
+.form {
+  max-width: 600px; /* Max width for the form */
+  margin: 20px auto; /* Center the form horizontally */
+  padding: 20px; /* Padding around the form */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #ffffff; /* White background for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h3 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+.label {
+  display: block; /* Make labels block-level */
+  margin-bottom: 5px; /* Space between label and input */
+  color: #555; /* Slightly lighter than the heading */
+  font-weight: bold; /* Bold labels */
+}
+
+.input {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the input */
+  margin-bottom: 15px; /* Space between inputs */
+  border-radius: 5px; /* Rounded input corners */
+  border: 1px solid #ccc; /* Light border */
+  transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+.input:focus {
+  border-color: #007BFF; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.hospitalSection {
+  border: 1px solid #ddd; /* Light border for each hospital section */
+  border-radius: 5px; /* Rounded corners for sections */
+  padding: 10px; /* Padding inside hospital section */
+  margin-bottom: 20px; /* Space between hospital sections */
+  background-color: #f9f9f9; /* Light background for sections */
+}
+
+.button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding inside the button */
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Button text size */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

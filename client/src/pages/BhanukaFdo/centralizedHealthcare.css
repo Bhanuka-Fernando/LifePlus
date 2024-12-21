@@ -1,0 +1,35 @@
+.healthcare-container {
+    padding: 20px;
+  }
+  
+  .tabs-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -10px;
+    margin-top: 20px;
+  }
+  
+  .tab-button {
+    padding: 12px 70px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #c0c0c0;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .tab-button.active {
+    background-color: #075a84;
+    color: white;
+  }
+  
+  .tab-button:hover {
+    background-color: #9b72a1;
+    color: white;
+  }
+  
+  .content-container {
+    margin-top: 10px;
+  }
+  

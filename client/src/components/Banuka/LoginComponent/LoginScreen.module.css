@@ -1,0 +1,45 @@
+/* LoginScreen.module.css */
+.container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    height: 90vh;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0; /* Adjusted margin */
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ccc;
+    background-color: #fff;
+  }
+  
+  .button {
+    background-color: #53c373;
+    padding: 15px 0; /* Adjusted padding */
+    width: 110%;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    color: #fff;
+    border: none; /* Removed default border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+  .buttonText {
+    color: #fff;
+    font-size: 18px;
+  }
+  
